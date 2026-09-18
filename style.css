@@ -441,8 +441,6 @@ nav a.active {
   height: 100%;
 
   object-fit: cover;
-
-  border-radius: 12px;
 }
 
 .car-badge {
@@ -518,8 +516,8 @@ nav a.active {
 }
 
 .car-specs {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
 
   gap: 12px;
 
@@ -527,13 +525,16 @@ nav a.active {
 
   color: var(--text-light);
 
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.VD{
+ border: 1px solid var(--border);
 }
 
 .car-footer {
   padding-top: 18px;
-
-  border-top: 1px solid var(--border);
 
   display: flex;
   align-items: center;
