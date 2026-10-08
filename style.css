@@ -196,7 +196,6 @@ nav a.active {
   margin-inline: auto;
 }
 
-
 .eyebrow {
   display: inline-block;
 
@@ -683,7 +682,7 @@ nav a.active {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: left ;
+  object-position: left;
 }
 
 /* =========================
@@ -737,101 +736,3 @@ nav a.active {
 /* =========================
      RESPONSIVE
   ========================= */
-
-@media (max-width: 900px) {
-  nav {
-    display: none;
-  }
-
-  .hero h1 {
-    font-size: 52px;
-  }
-
-  .hero-visual {
-    min-height: 350px;
-  }
-
-  .car-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .contact-content {
-    width: 72%;
-  }
-
-  .contact-image::after {
-    background: linear-gradient(
-      90deg,
-      var(--dark) 0%,
-      rgb(16 24 40 / 92%) 42%,
-      rgb(16 24 40 / 55%) 100%
-    );
-  }
-
-  .footer-content {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 600px) {
-  .nav-actions .btn-light {
-    display: none;
-  }
-
-  .hero {
-    padding-top: 45px;
-  }
-
-  .hero h1 {
-    font-size: 42px;
-  }
-
-  .hero-actions {
-    flex-direction: column;
-  }
-
-  .hero-actions .btn {
-    width: 100%;
-  }
-
-  .hero-benefits {
-    flex-direction: column;
-    gap: 9px;
-  }
-
-  .section-header {
-    align-items: start;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .section-header h2 {
-    font-size: 31px;
-  }
-
-  .car-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-content {
-    width: 100%;
-    min-height: 430px;
-    padding: 36px 25px;
-  }
-
-  .contact-image::after {
-    background: linear-gradient(
-      90deg,
-      rgb(16 24 40 / 94%) 0%,
-      rgb(16 24 40 / 82%) 100%
-    );
-  }
-
-  .contact-content h2 {
-    font-size: 32px;
-  }
-
-  .footer-content {
-    grid-template-columns: 1fr;
-  }
-}
