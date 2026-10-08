@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore the BMW X3, review its specifications, and request your rental dates with RentGo." />
+  <title>BMW X3 | RentGo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.css" />
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="car-details.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="../index.html" class="logo"><span class="logo-icon">R</span>RentGo</a>
+      <nav aria-label="Main navigation">
+        <a href="../index.html">Home</a><a href="../index.html#cars" class="active">Cars</a><a href="../index.html#about">About</a><a href="../index.html#contact">Contact</a>
+      </nav>
+      <div class="nav-actions"><a href="#" class="btn btn-light">Sign in</a><a href="#booking" class="btn btn-primary">Book a car</a></div>
+    </div>
+  </header>
+
+  <main class="detail-page">
+    <div class="container">
+      <div class="detail-breadcrumb"><a href="../index.html">Home</a><span>/</span><a href="../index.html#cars">Cars</a><span>/</span><span>BMW X3</span></div>
+
+      <section class="detail-title" aria-labelledby="car-title">
+        <div>
+          <span class="detail-category">SUV <span aria-hidden="true">·</span> 2023</span>
+          <h1 id="car-title">BMW X3</h1>
+          <p>Comfortable space and confident performance for every journey.</p>
+        </div>
+        <button class="detail-favorite" type="button" aria-label="Add BMW X3 to favorites"><i class="icon icon-heart" aria-hidden="true"></i><span>Save</span></button>
+      </section>
+
+      <section class="detail-gallery" aria-label="BMW X3 photos">
+        <img class="gallery-main" src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1400&q=85" alt="BMW X3 viewed from the front on a road" />
+        <div class="gallery-side">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=85" alt="Luxury car exterior detail" />
+          <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=900&q=85" alt="Car interior and dashboard" />
+        </div>
+        <button class="gallery-all" type="button"><i class="icon icon-images" aria-hidden="true"></i> View all photos</button>
+      </section>
+
+      <div class="detail-layout">
+        <div class="detail-main">
+          <section class="detail-section">
+            <div class="detail-section-heading"><div><span class="detail-kicker">THE DETAILS</span><h2>Everything you need to know</h2></div></div>
+            <ul class="detail-specs">
+              <li><i class="icon icon-users" aria-hidden="true"></i><span>5 seats</span></li>
+              <li><i class="icon icon-settings-2" aria-hidden="true"></i><span>Automatic</span></li>
+              <li><i class="icon icon-fuel" aria-hidden="true"></i><span>Diesel</span></li>
+              <li><i class="icon icon-luggage" aria-hidden="true"></i><span>4 bags</span></li>
+              <li><i class="icon icon-gauge" aria-hidden="true"></i><span>Unlimited mileage</span></li>
+              <li><i class="icon icon-snowflake" aria-hidden="true"></i><span>Air conditioning</span></li>
+              <li><i class="icon icon-shield-check" aria-hidden="true"></i><span>Basic cover</span></li>
+              <li><i class="icon icon-calendar-check" aria-hidden="true"></i><span>Free cancellation</span></li>
+            </ul>
+          </section>
+
+          <section class="detail-section about-car">
+            <span class="detail-kicker">ABOUT THIS CAR</span>
+            <h2>A comfortable companion for the road</h2>
+            <p>The BMW X3 pairs a spacious cabin with a smooth automatic drive, making it a versatile choice for city trips and longer journeys. Enjoy room for passengers and luggage, plus the convenience of air conditioning.</p>
+          </section>
+
+          <section class="detail-section included-section">
+            <span class="detail-kicker">GOOD TO KNOW</span>
+            <h2>Rental highlights</h2>
+            <div class="highlight-row"><i class="icon icon-route" aria-hidden="true"></i><div><strong>Unlimited mileage</strong><span>Travel without a listed daily distance limit.</span></div></div>
+            <div class="highlight-row"><i class="icon icon-shield-check" aria-hidden="true"></i><div><strong>Basic cover</strong><span>Review the full coverage and excess details before booking.</span></div></div>
+            <div class="highlight-row"><i class="icon icon-calendar-check" aria-hidden="true"></i><div><strong>Free cancellation</strong><span>Cancellation terms depend on your selected rental dates.</span></div></div>
+          </section>
+        </div>
+
+        <aside class="booking-card" id="booking" aria-label="Booking request">
+          <div class="booking-price"><div><strong>120.00 €</strong><span> / day</span></div><span class="availability"><i></i> Check availability</span></div>
+          <form class="booking-form" action="#booking" method="get">
+            <label>Pick-up date<input type="date" name="pickup" /></label>
+            <label>Return date<input type="date" name="return" /></label>
+            <label>Pick-up location<input type="text" name="location" placeholder="Enter a city or location" /></label>
+            <button class="booking-submit" type="submit">Check availability <span aria-hidden="true">→</span></button>
+          </form>
+          <p class="booking-note"><i class="icon icon-info" aria-hidden="true"></i> Price shown per day. Final total and rental terms are confirmed with your dates.</p>
+          <div class="booking-trust"><i class="icon icon-lock-keyhole" aria-hidden="true"></i> No payment is taken on this page</div>
+        </aside>
+      </div>
+
+      <a class="back-to-cars" href="../index.html#cars">← Back to all cars</a>
+    </div>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer-content">
+      <div><a href="../index.html" class="logo"><span class="logo-icon">R</span>RentGo</a><p>Simple car rental for every journey.</p></div>
+      <div><h4>Navigation</h4><a href="../index.html">Home</a><a href="../index.html#cars">Cars</a><a href="../index.html#about">About</a></div>
+      <div><h4>Support</h4><a href="#">FAQ</a><a href="#">Terms</a><a href="../index.html#contact">Contact</a></div>
+      <div><h4>Contact</h4><p>contact@rentgo.com</p><p>+212 600 000 000</p></div>
+    </div>
+    <div class="container copyright">© 2026 RentGo. All rights reserved.</div>
+  </footer>
+</body>
+</html>
