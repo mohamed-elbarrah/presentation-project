@@ -516,21 +516,39 @@ nav a.active {
 }
 
 .car-specs {
-  display: flex;
-  justify-content: space-between;
-
-  gap: 12px;
-
-  margin: 22px 0;
-
-  color: var(--text-light);
-
-  font-size: 14px;
-  font-weight: bold;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px 6px;
+  margin: 20px 0 22px;
+  padding: 4px 0;
 }
 
-.VD{
- border: 1px solid var(--border);
+.car-specs li {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #475467;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.car-specs .icon {
+  flex: 0 0 auto;
+  color: var(--primary);
+  font-size: 15px;
+}
+
+.car-specs li span {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .car-footer {
