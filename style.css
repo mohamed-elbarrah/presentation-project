@@ -170,17 +170,32 @@ nav a.active {
   ========================= */
 
 .hero {
-  padding: 72px 0 60px;
-
+  padding: 88px 0 76px;
   background: linear-gradient(120deg, #ffffff 45%, #f2f8fc 100%);
 }
 
 .hero-content {
-  display: grid;
-  grid-template-columns: 1fr 1.05fr;
+  display: flex;
   align-items: center;
-  gap: 70px;
+  justify-content: center;
+  text-align: center;
 }
+
+.hero-text {
+  width: min(100%, 760px);
+  margin-inline: auto;
+  text-align: center;
+}
+
+.hero h1 {
+  margin-inline: auto;
+  text-align: center;
+}
+
+.hero-text > p {
+  margin-inline: auto;
+}
+
 
 .eyebrow {
   display: inline-block;
@@ -215,13 +230,14 @@ nav a.active {
 
 .hero-actions {
   margin-top: 32px;
-
   display: flex;
+  justify-content: center;
   gap: 12px;
 }
 
 .hero-benefits {
   display: flex;
+  justify-content: center;
   gap: 22px;
   flex-wrap: wrap;
 
@@ -725,10 +741,6 @@ nav a.active {
 @media (max-width: 900px) {
   nav {
     display: none;
-  }
-
-  .hero-content {
-    grid-template-columns: 1fr;
   }
 
   .hero h1 {
