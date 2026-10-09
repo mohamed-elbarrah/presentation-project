@@ -1,402 +1,373 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RentGo - Car Rental</title>
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.css" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="container nav-content">
-
-      <a href="#" class="logo">
-        <span class="logo-icon">R</span>
-        RentGo
-      </a>
-
-      <nav>
-        <a href="#" class="active">Home</a>
-        <a href="#cars">Cars</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-
-      <div class="nav-actions">
-        <a href="#" class="btn btn-light">Sign in</a>
-        <a href="#cars" class="btn btn-primary">Book a car</a>
-      </div>
-
-    </div>
-  </header>
-
-
-  <main>
-
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero-content">
-
-        <div class="hero-text">
-          <span class="eyebrow">FIND YOUR PERFECT RIDE</span>
-
-          <h1>
-            Drive more.<br />
-            Experience more.
-          </h1>
-
-          <p>
-            Find the right car for your journey.
-            Simple booking, transparent prices and flexible rental options.
-          </p>
-
-          <div class="hero-actions">
-            <a href="#cars" class="btn btn-primary btn-large">
-              Browse cars
-            </a>
-
-            <a href="#about" class="btn btn-outline btn-large">
-              How it works
-            </a>
-          </div>
-
-          <div class="hero-benefits">
-            <span>✓ No hidden fees</span>
-            <span>✓ Flexible booking</span>
-            <span>✓ 24/7 support</span>
-          </div>
-        </div>
-
-
-
-      </div>
-    </section>
-
-
-    <!-- BRANDS -->
-    <section class="brands">
-      <div class="container">
-
-        <p class="section-label">Available brands</p>
-
-        <div class="brand-marquee">
-          <div class="brand-track">
-            <span>TOYOTA</span>
-            <span>BMW</span>
-            <span>MERCEDES</span>
-            <span>AUDI</span>
-            <span>FIAT</span>
-            <span>RENAULT</span>
-            <span>FORD</span>
-            <span>HYUNDAI</span>
-            <span>KIA</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- CARS -->
-    <section class="cars-section" id="cars">
-      <div class="container">
-
-        <div class="section-header">
-          <div>
-            <span class="eyebrow">OUR FLEET</span>
-            <h2>Find the right car for you</h2>
-            <p>
-              Explore our available cars and choose the one
-              that fits your journey.
-            </p>
-          </div>
-
-          <a href="#" class="view-all">
-            View all cars →
-          </a>
-        </div>
-
-
-        <!-- BRAND TABS -->
-        <div class="tabs">
-          <button class="tab active">All</button>
-          <button class="tab">Toyota</button>
-          <button class="tab">BMW</button>
-          <button class="tab">Mercedes</button>
-          <button class="tab">Audi</button>
-          <button class="tab">Fiat</button>
-          <button class="tab">Renault</button>
-        </div>
-
-
-        <!-- CAR GRID -->
-        <div class="car-grid">
-
-          <!-- CAR 1 -->
-          <article class="car-card">
-
-            <div class="car-image">
-              <span class="car-badge">Economy</span>
-
-              <button class="favorite">♡</button>
-
-              <img
-                src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=700&q=80"
-                alt="Fiat Panda"
-              />
-            </div>
-
-            <div class="car-content">
-
-              <div class="car-heading">
-                <div>
-                  <span class="brand-name">FIAT</span>
-                  <h3>Fiat Panda</h3>
-                </div>
-
-                <span class="year">2024</span>
-              </div>
-
-
-              <ul class="car-specs">
-                <li><i class="icon icon-users"></i><span>4 seats</span></li>
-                <li><i class="icon icon-settings-2"></i><span>Automatic</span></li>
-                <li><i class="icon icon-fuel"></i><span>Petrol</span></li>
-                <li><i class="icon icon-luggage"></i><span>2 bags</span></li>
-                <li><i class="icon icon-gauge"></i><span>Unlimited km</span></li>
-                <li><i class="icon icon-snowflake"></i><span>Air conditioning</span></li>
-                <li><i class="icon icon-shield-check"></i><span>Basic cover</span></li>
-                <li><i class="icon icon-calendar-check"></i><span>Free cancellation</span></li>
-              </ul>
-
-
-              <div class="car-footer">
-
-                <div class="price">
-                  <strong>59.50 €</strong>
-                  <span>/ day</span>
-                </div>
-
-                <a href="#" class="car-button">
-                  View car
-                </a>
-
-              </div>
-
-            </div>
-          </article>
-
-
-          <!-- CAR 2 -->
-          <article class="car-card">
-
-            <div class="car-image">
-              <span class="car-badge">Compact</span>
-
-              <button class="favorite">♡</button>
-
-              <img
-                src="https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=700&q=80"
-                alt="Toyota Corolla"
-              />
-            </div>
-
-            <div class="car-content">
-
-              <div class="car-heading">
-                <div>
-                  <span class="brand-name">TOYOTA</span>
-                  <h3>Toyota Corolla</h3>
-                </div>
-
-                <span class="year">2024</span>
-              </div>
-
-
-              <ul class="car-specs">
-                <li><i class="icon icon-users"></i><span>5 seats</span></li>
-                <li><i class="icon icon-settings-2"></i><span>Automatic</span></li>
-                <li><i class="icon icon-fuel"></i><span>Hybrid</span></li>
-                <li><i class="icon icon-luggage"></i><span>3 bags</span></li>
-                <li><i class="icon icon-gauge"></i><span>Unlimited km</span></li>
-                <li><i class="icon icon-snowflake"></i><span>Air conditioning</span></li>
-                <li><i class="icon icon-shield-check"></i><span>Basic cover</span></li>
-                <li><i class="icon icon-calendar-check"></i><span>Free cancellation</span></li>
-              </ul>
-
-
-              <div class="car-footer">
-
-                <div class="price">
-                  <strong>72.00 €</strong>
-                  <span>/ day</span>
-                </div>
-
-                <a href="#" class="car-button">
-                  View car
-                </a>
-
-              </div>
-
-            </div>
-          </article>
-
-
-          <!-- CAR 3 -->
-          <article class="car-card">
-
-            <div class="car-image">
-              <span class="car-badge">SUV</span>
-
-              <button class="favorite">♡</button>
-
-              <img
-                src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=700&q=80"
-                alt="BMW X3"
-              />
-            </div>
-
-            <div class="car-content">
-
-              <div class="car-heading">
-                <div>
-                  <span class="brand-name">BMW</span>
-                  <h3>BMW X3</h3>
-                </div>
-
-                <span class="year">2023</span>
-              </div>
-
-
-              <ul class="car-specs">
-                <li><i class="icon icon-users"></i><span>5 seats</span></li>
-                <li><i class="icon icon-settings-2"></i><span>Automatic</span></li>
-                <li><i class="icon icon-fuel"></i><span>Diesel</span></li>
-                <li><i class="icon icon-luggage"></i><span>4 bags</span></li>
-                <li><i class="icon icon-gauge"></i><span>Unlimited km</span></li>
-                <li><i class="icon icon-snowflake"></i><span>Air conditioning</span></li>
-                <li><i class="icon icon-shield-check"></i><span>Basic cover</span></li>
-                <li><i class="icon icon-calendar-check"></i><span>Free cancellation</span></li>
-              </ul>
-
-
-              <div class="car-footer">
-
-                <div class="price">
-                  <strong>120.00 €</strong>
-                  <span>/ day</span>
-                </div>
-
-                <a href="pages/car-details.html" class="car-button">
-                  View car
-                </a>
-
-              </div>
-
-            </div>
-          </article>
-
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- CONTACT CTA -->
-    <section class="contact-section" id="about">
-      <div class="container">
-
-        <div class="contact-card">
-
-          <div class="contact-content">
-
-            <span class="eyebrow light">
-              MORE THAN A RENTAL
-            </span>
-
-            <h2>
-              A simple way to start your next journey.
-            </h2>
-
-            <p>
-              Need help choosing a car or planning your rental?
-              Our team is ready to help you find the best option.
-            </p>
-
-            <div class="contact-features">
-              <span>✓ Wide selection of cars</span>
-              <span>✓ Transparent pricing</span>
-              <span>✓ Flexible rental periods</span>
-            </div>
-
-            <a href="#contact" class="btn btn-white">
-              Contact us
-            </a>
-
-          </div>
-
-
-          <div class="contact-image">
-            <img
-              src="https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=1400&q=85"
-              alt=""
-            />
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-  </main>
-
-
-  <!-- FOOTER -->
-  <footer class="footer" id="contact">
-    <div class="container footer-content">
-
-      <div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RentGo - Car Rental</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="container nav-content">
         <a href="#" class="logo">
           <span class="logo-icon">R</span>
           RentGo
         </a>
 
-        <p>
-          Simple car rental for every journey.
-        </p>
+        <nav>
+          <a href="#" class="active">Home</a>
+          <a href="#cars">Cars</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="#" class="btn btn-light">Sign in</a>
+          <a href="#cars" class="btn btn-primary">Book a car</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <span class="eyebrow">FIND YOUR PERFECT RIDE</span>
+
+            <h1>
+              Drive more.<br />
+              Experience more.
+            </h1>
+
+            <p>
+              Find the right car for your journey. Simple booking, transparent
+              prices and flexible rental options.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#cars" class="btn btn-primary btn-large">
+                Browse cars
+              </a>
+
+              <a href="#about" class="btn btn-outline btn-large">
+                How it works
+              </a>
+            </div>
+
+            <div class="hero-benefits">
+              <span>✓ No hidden fees</span>
+              <span>✓ Flexible booking</span>
+              <span>✓ 24/7 support</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BRANDS -->
+      <section class="brands">
+        <div class="container">
+          <p class="section-label">Available brands</p>
+
+          <div class="brand-marquee">
+            <div class="brand-track">
+              <span>TOYOTA</span>
+              <span>BMW</span>
+              <span>MERCEDES</span>
+              <span>AUDI</span>
+              <span>FIAT</span>
+              <span>RENAULT</span>
+              <span>FORD</span>
+              <span>HYUNDAI</span>
+              <span>KIA</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CARS -->
+      <section class="cars-section" id="cars">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="eyebrow">OUR FLEET</span>
+              <h2>Find the right car for you</h2>
+              <p>
+                Explore our available cars and choose the one that fits your
+                journey.
+              </p>
+            </div>
+
+            <a href="#" class="view-all"> View all cars → </a>
+          </div>
+
+          <!-- BRAND TABS -->
+          <div class="tabs">
+            <button class="tab active">All</button>
+            <button class="tab">Toyota</button>
+            <button class="tab">BMW</button>
+            <button class="tab">Mercedes</button>
+            <button class="tab">Audi</button>
+            <button class="tab">Fiat</button>
+            <button class="tab">Renault</button>
+          </div>
+
+          <!-- CAR GRID -->
+          <div class="car-grid">
+            <!-- CAR 1 -->
+            <article class="car-card">
+              <div class="car-image">
+                <span class="car-badge">Economy</span>
+
+                <button class="favorite">♡</button>
+
+                <img
+                  src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=700&q=80"
+                  alt="Fiat Panda"
+                />
+              </div>
+
+              <div class="car-content">
+                <div class="car-heading">
+                  <div>
+                    <span class="brand-name">FIAT</span>
+                    <h3>Fiat Panda</h3>
+                  </div>
+
+                  <span class="year">2024</span>
+                </div>
+
+                <ul class="car-specs">
+                  <li><i class="icon icon-users"></i><span>4 seats</span></li>
+                  <li>
+                    <i class="icon icon-settings-2"></i><span>Automatic</span>
+                  </li>
+                  <li><i class="icon icon-fuel"></i><span>Petrol</span></li>
+                  <li><i class="icon icon-luggage"></i><span>2 bags</span></li>
+                  <li>
+                    <i class="icon icon-gauge"></i><span>Unlimited km</span>
+                  </li>
+                  <li>
+                    <i class="icon icon-snowflake"></i
+                    ><span>Air conditioning</span>
+                  </li>
+                  <li>
+                    <i class="icon icon-shield-check"></i
+                    ><span>Basic cover</span>
+                  </li>
+                  <li>
+                    <i class="icon icon-calendar-check"></i
+                    ><span>Free cancellation</span>
+                  </li>
+                </ul>
+
+                <div class="car-footer">
+                  <div class="price">
+                    <strong>59.50 €</strong>
+                    <span>/ day</span>
+                  </div>
+
+                  <a href="#" class="car-button"> View car </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- CAR 2 -->
+            <article class="car-card">
+              <div class="car-image">
+                <span class="car-badge">Compact</span>
+
+                <button class="favorite">♡</button>
+
+                <img
+                  src="https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=700&q=80"
+                  alt="Toyota Corolla"
+                />
+              </div>
+
+              <div class="car-content">
+                <div class="car-heading">
+                  <div>
+                    <span class="brand-name">TOYOTA</span>
+                    <h3>Toyota Corolla</h3>
+                  </div>
+
+                  <span class="year">2024</span>
+                </div>
+
+                <ul class="car-specs">
+                  <li><i class="icon icon-users"></i><span>5 seats</span></li>
+                  <li>
+                    <i class="icon icon-settings-2"></i><span>Automatic</span>
+                  </li>
+                  <li><i class="icon icon-fuel"></i><span>Hybrid</span></li>
+                  <li><i class="icon icon-luggage"></i><span>3 bags</span></li>
+                  <li>
+                    <i class="icon icon-gauge"></i><span>Unlimited km</span>
+                  </li>
+                  <li>
+                    <i class="icon icon-snowflake"></i
+                    ><span>Air conditioning</span>
+                  </li>
+                  <li>
+                    <i class="icon icon-shield-check"></i
+                    ><span>Basic cover</span>
+                  </li>
+                  <li>
+                    <i class="icon icon-calendar-check"></i
+                    ><span>Free cancellation</span>
+                  </li>
+                </ul>
+
+                <div class="car-footer">
+                  <div class="price">
+                    <strong>72.00 €</strong>
+                    <span>/ day</span>
+                  </div>
+
+                  <a href="#" class="car-button"> View car </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- CAR 3 -->
+            <article class="car-card">
+              <div class="car-image">
+                <span class="car-badge">SUV</span>
+
+                <button class="favorite">♡</button>
+
+                <img
+                  src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=700&q=80"
+                  alt="BMW X3"
+                />
+              </div>
+
+              <div class="car-content">
+                <div class="car-heading">
+                  <div>
+                    <span class="brand-name">BMW</span>
+                    <h3>BMW X3</h3>
+                  </div>
+
+                  <span class="year">2023</span>
+                </div>
+
+                <ul class="car-specs">
+                  <li><i class="icon icon-users"></i><span>5 seats</span></li>
+                  <li>
+                    <i class="icon icon-settings-2"></i><span>Automatic</span>
+                  </li>
+                  <li><i class="icon icon-fuel"></i><span>Diesel</span></li>
+                  <li><i class="icon icon-luggage"></i><span>4 bags</span></li>
+                  <li>
+                    <i class="icon icon-gauge"></i><span>Unlimited km</span>
+                  </li>
+                  <li>
+                    <i class="icon icon-snowflake"></i
+                    ><span>Air conditioning</span>
+                  </li>
+                  <li>
+                    <i class="icon icon-shield-check"></i
+                    ><span>Basic cover</span>
+                  </li>
+                  <li>
+                    <i class="icon icon-calendar-check"></i
+                    ><span>Free cancellation</span>
+                  </li>
+                </ul>
+
+                <div class="car-footer">
+                  <div class="price">
+                    <strong>120.00 €</strong>
+                    <span>/ day</span>
+                  </div>
+
+                  <a href="pages/car-details.html" class="car-button">
+                    View car
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT CTA -->
+      <section class="contact-section" id="about">
+        <div class="container">
+          <div class="contact-card">
+            <div class="contact-content">
+              <span class="eyebrow light"> MORE THAN A RENTAL </span>
+
+              <h2>A simple way to start your next journey.</h2>
+
+              <p>
+                Need help choosing a car or planning your rental? Our team is
+                ready to help you find the best option.
+              </p>
+
+              <div class="contact-features">
+                <span>✓ Wide selection of cars</span>
+                <span>✓ Transparent pricing</span>
+                <span>✓ Flexible rental periods</span>
+              </div>
+
+              <a href="#contact" class="btn btn-white"> Contact us </a>
+            </div>
+
+            <div class="contact-image">
+              <img
+                src="https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=1400&q=85"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+      <div class="container footer-content">
+        <div>
+          <a href="#" class="logo">
+            <span class="logo-icon">R</span>
+            RentGo
+          </a>
+
+          <p>Simple car rental for every journey.</p>
+        </div>
+
+        <div>
+          <h4>Navigation</h4>
+          <a href="#">Home</a>
+          <a href="#cars">Cars</a>
+          <a href="#about">About</a>
+        </div>
+
+        <div>
+          <h4>Support</h4>
+          <a href="#">FAQ</a>
+          <a href="#">Terms</a>
+          <a href="#">Contact</a>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <p>contact@rentgo.com</p>
+          <p>+212 600 000 000</p>
+        </div>
       </div>
 
-      <div>
-        <h4>Navigation</h4>
-        <a href="#">Home</a>
-        <a href="#cars">Cars</a>
-        <a href="#about">About</a>
-      </div>
-
-      <div>
-        <h4>Support</h4>
-        <a href="#">FAQ</a>
-        <a href="#">Terms</a>
-        <a href="#">Contact</a>
-      </div>
-
-      <div>
-        <h4>Contact</h4>
-        <p>contact@rentgo.com</p>
-        <p>+212 600 000 000</p>
-      </div>
-
-    </div>
-
-    <div class="container copyright">
-      © 2026 RentGo. All rights reserved.
-    </div>
-  </footer>
-
-</body>
+      <div class="container copyright">© 2026 RentGo. All rights reserved.</div>
+    </footer>
+  </body>
 </html>
